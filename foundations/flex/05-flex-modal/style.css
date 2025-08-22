@@ -20,6 +20,19 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 10px
+}
+
+.header{
+  font-size: larger;
+  font-weight: bolder;
+}
+.left{
+  padding-right: 10px;
+}
+.right{
+
 }
 
 .icon {
@@ -33,7 +46,28 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  
 }
+
+.topp{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border: 3px solid yellow;
+  
+
+}
+
+.tree{
+  border: 5px solid red;
+
+}
+.text{
+  padding-bottom: 10px;
+}
+
 
 .close-button {
   background: #eee;
@@ -43,9 +77,6 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #eee;
   padding: 0;
 }
